@@ -1,0 +1,17 @@
+.section {
+    display: flex;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        padding: 50px 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .section {
+        padding: 48px 64px;
+    }
+}
