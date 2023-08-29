@@ -64,3 +64,15 @@ body {
 .text-header-highlight {
     color: var(--color-light-green);
 }
+
+@media screen and (max-width: 767) {
+    .header-one {
+        font-size: 38px;
+        line-height: 1.05;
+    }
+
+    .header-two {
+        font-size: 32px;
+        line-height: 1.13;
+    }
+}
