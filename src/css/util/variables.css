@@ -1,3 +1,14 @@
 :root {
-    --example: #fff;
+    --color-black: #121417;
+    --color-light-black: rgba(18, 20, 23, 0.50);
+    --color-green: #4dc274;
+    --color-green-linear: #bee8cc;
+    --color-light-green: #d4fde1;
+    --color-gray: #f3f5f6;
+    --color-white: #ffffff;
+
+    --font-primary: "Manrope", sans-serif;
+    --font-weight-primary-regular: 400;
+    --font-weight-primary-semibold: 600;
+    --font-weight-primary-bold: 700;
 }
