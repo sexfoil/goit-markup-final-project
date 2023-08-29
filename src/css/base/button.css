@@ -1,8 +1,50 @@
+.btn {
+    display: block;
+    min-width: 256px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: var(--font-weight-primary-bold);
+    line-height: 1.56;
+}
+
+.btn-green {
+    border: none;
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
+.btn-green:hover,
+.btn-green:focus {
+    background-color: var(--color-dark-green);
+}
+
+.btn-transparent {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background-color: transparent;
+    color: var(--color-white);
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+    color: var(--color-dark-green);
+    background-color: var(--color-white);
+}
+
 .text-button {
     color: var(--color-white);
     font-family: var(--font-primary);
     font-size: 14px;
-    font-weight: 700;
+    font-weight: var(--font-weight-primary-bold);
     line-height: 1.71px;
 }
 
+@media screen and (max-width: 767) {
+    .btn {
+        padding: 14px 28px;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+}
