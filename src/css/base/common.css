@@ -92,6 +92,17 @@ body {
     .header-two {
         font-size: 32px;
         line-height: 1.13;
+        letter-spacing: -0.64px;
+    }
+
+    .text-body {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    
+    .text-body-small {
+        font-size: 14px;
+        line-height: 1.7;
     }
 
     .text-highlight::after {
