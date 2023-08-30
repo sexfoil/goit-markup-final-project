@@ -14,3 +14,11 @@
 .mobile-menu-container.is-open {
   transform: translateX(0);
 }
+
+.mobile-menu-open-button-icon {
+  stroke: var(--color-black);
+}
+
+.mobile-menu-close-button-icon {
+  stroke: var(--color-white);
+}
