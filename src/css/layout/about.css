@@ -1,0 +1,37 @@
+.about-text {
+  line-height: 1.71;
+  font-size: 14px;
+  text-align: center;
+  color: var(--color-light-black);
+  font-weight: var(--font-weight-primary-regular);
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-block {
+  background-color: var(--color-gray);
+}
+
+.advantages-number {
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--color-green);
+  font-weight: var(--font-weight-primary-bold);
+}
+
+.advantages-text {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  font-weight: var(--font-weight-primary-bold);
+
+}
+
+.memoji-section {
+  background-color: var(--color-green);
+}
