@@ -41,7 +41,7 @@
     line-height: 1.71px;
 }
 
-@media screen and (max-width: 767) {
+@media screen and (max-width: 767px) {
     .btn {
         padding: 14px 28px;
         font-size: 14px;
