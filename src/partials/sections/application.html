@@ -1,5 +1,113 @@
-<section class="section">
+<section class="section" id="application">
   <div class="container">
-    <p>SECTION: APPLICATION - replace me!</p>
+    <div>
+      <h2 class="header-two">
+        Leave an <span class="text-highlight">application</span>
+      </h2>
+      <p class="text-body">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+    </div>
+    <form class="application-form">
+      <div class="application-form-container">
+        <label class="application-form-field" for="user-name"></label>
+        <div class="application-form-input-wrapper">
+          <input
+            id="user-name"
+            class="application-form-imput"
+            type="text"
+            name="user-name"
+            minlength="2"
+            pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄйЙʼ]+"
+            placeholder="Name"
+            required
+          />
+        </div>
+      </div>
+      <div class="application-form-container">
+        <label class="application-form-field" for="user-email"></label>
+        <div class="application-form-input-wrapper">
+          <input
+            id="user-email"
+            class="application-form-imput"
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            required
+          />
+        </div>
+      </div>
+      <div class="application-form-container">
+        <label class="application-form-field" for="user-phone"></label>
+        <div class="application-form-input-wrapper">
+          <input
+            id="user-phone"
+            class="application-form-imput"
+            type="tel"
+            name="user-phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone"
+            required
+          />
+        </div>
+      </div>
+      <div class="application-form-comment-container">
+        <label class="application-form-field" for="user-comment"></label>
+        <textarea
+          id="user-comment"
+          class="application-form-comment"
+          name="user-comment"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+      <div class="application-form-radiobutton-container">
+        <p class="application-form-radiobutton-text">Choose a teacher</p>
+        <label class="application-form-radiobutton-label">
+          <input
+            class="application-form-radiobutton"
+            type="radio"
+            name="teacher"
+            value="Maria"
+            checked
+          />
+          Maria
+        </label>
+        <label class="application-form-radiobutton-label">
+          <input
+            class="application-form-radiobutton"
+            type="radio"
+            name="teacher"
+            value="Artem"
+          />
+          Artem
+        </label>
+        <label class="application-form-radiobutton-label">
+          <input
+            class="application-form-radiobutton"
+            type="radio"
+            name="teacher"
+            value="Ilona"
+          />
+          Ilona
+        </label>
+        <label class="application-form-radiobutton-label">
+          <input
+            class="application-form-radiobutton"
+            type="radio"
+            name="teacher"
+            value="Volodymyr"
+          />
+          Volodymyr
+        </label>
+      </div>
+      <button class="application-form-btn" type="submit">Send</button>
+      <p class="application-form-smalltext">
+        By clicking on "Send" button, you agree to our
+        <a class="application-form-radiobutton-link" href="">Privacy Policy</a>,
+        and allow Promodo to use this information for marketing purposes.
+      </p>
+    </form>
   </div>
 </section>
