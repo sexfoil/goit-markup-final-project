@@ -31,6 +31,7 @@ body {
     font-weight: var(--font-weight-primary-bold);
     line-height: 1.2;
     letter-spacing: -0.8px;
+    margin-bottom: 16px;
 }
 
 .header-three {
@@ -47,6 +48,7 @@ body {
     font-size: 18px;
     font-weight: var(--font-weight-primary-regular);
     line-height: 1.67;
+    margin-bottom: 64px;
 }
 
 .text-body-small {
@@ -99,6 +101,7 @@ body {
     .text-body {
         font-size: 14px;
         line-height: 1.7;
+        margin-bottom: 40px;
     }
     
     .text-body-small {
