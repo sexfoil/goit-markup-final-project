@@ -48,3 +48,9 @@
         line-height: 1.71;
     }
 }
+
+@media screen and (max-width: 374px) {
+    .btn {
+        min-width: 100%;
+    }
+}
