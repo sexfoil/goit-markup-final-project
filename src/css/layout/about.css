@@ -1,0 +1,15 @@
+.about-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: items;
+}
+
+.about-list>li {
+    display: block;
+    counter-increment: items;
+}
+
+.about-list>li::before {
+    content: '0' counter(items) ' ';
+}
