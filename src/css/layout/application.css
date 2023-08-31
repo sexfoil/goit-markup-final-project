@@ -1,3 +1,132 @@
+.application-section {
+    max-width: none;
+}
+
+.application-header-container {
+    margin-bottom: 20px;
+}
+
+.application-title {
+    margin-bottom: 14px;
+}
+
+.application-text {
+    max-width: 335px;
+    margin: 0 auto
+}
+
+.application-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.application-form-imput {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    color: #121417;
+    border: 1px solid rgba(18, 20, 23, 0.10);
+    border-radius: 12px;
+    padding: 16px 18px;
+    background-color: transparent;
+    outline: transparent;
+    margin-bottom: 18px;
+}
+
+.application-form-imput:focus {
+    border: 1px solid #4DC274;
+}
+
+.application-form-imput::placeholder {
+    color: #121417;
+}
+
+.application-form-comment {
+    width: 100%;
+    height: 94px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    color: #121417;
+    border: 1px solid rgba(18, 20, 23, 0.10);
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 12px;
+    padding: 16px 18px;
+    resize: none;
+}
+
+.application-form-comment:focus {
+    border: 1px solid #4DC274;
+}
+
+.application-form-comment::placeholder {
+    color: #121417;
+}
+
+.application-form-radiobutton-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.application-form-radiobutton-text {
+    color: #121417;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+    margin-bottom: 14px;
+}
+
+.application-form-radiobutton-label {
+    color: #121417;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: -0.28px;
+}
+
+.application-form-btn {
+    display: block;
+    max-width: 335px;
+    padding: 14px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #4DC274;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.application-form-btn:hover,
+.application-form-btn:focus {
+    background-color: var(--color-dark-green);
+}
+
+.application-form-smalltext {
+    color: rgba(18, 20, 23, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    max-width: 335px;
+    margin: 0 auto
+}
+
 .custom-radio-button {
     display: inline-flex;
     justify-content: center;
@@ -15,6 +144,31 @@
 .application-form-radiobutton:checked+.application-form-radiobutton-label>.custom-radio-button {
     border-color: var(--color-green);
     fill: var(--color-green);
+}
+
+@media screen and (min-width: 375px) {
+    .application-form-wrapper {
+        align-items: center;
+    }
+
+    .application-form-imput {
+        width: 335px;
+    }
+
+    .application-form-comment {
+        width: 335px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .application-title {
+        font-weight: 600;
+    }
+
+    .application-text-highlight::after {
+        background-color: inherit;
+    }
 }
 
 @media screen and (min-width: 768px) {
