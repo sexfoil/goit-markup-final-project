@@ -40,54 +40,71 @@
 
     <load ="partials/footer.html" />
 
-    <div class="mobile-menu-container mobile-menu js-menu-container">
-      <button class="js-close-menu" type="button">
-        <svg class="mobile-menu-close-button-icon" width="28" heigt="28">
-          <use href="./img/icons.svg#icon-x"></use>
-        </svg>
-      </button>
-      <nav class="mobile-menu-nav">
-        <ul class="mobile-menu-nav-list">
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link text-link" href="#">About us</a>
+    <div class="overlay js-menu-overlay">
+      <div class="mobile-menu-container mobile-menu js-menu-container">
+        <button class="mobile-menu-close-button js-close-menu" type="button">
+          <svg class="mobile-menu-close-button-icon" width="28" heigt="28">
+            <use href="./img/icons.svg#icon-x"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-nav-list">
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link text-link" href="#">About us</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link text-link" href="#">Our lessons</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link text-link" href="#">Teachers</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link text-link" href="#">Reviews</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link text-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="mobile-menu-social-list">
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.facebook.com/goITclub/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <svg class="mobile-menu-social-icon" width="28" height="28">
+                <use href="./img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link text-link" href="#">Our lessons</a>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.instagram.com/goitclub/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <svg class="mobile-menu-social-icon" width="28" height="28">
+                <use href="./img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link text-link" href="#">Teachers</a>
-          </li>
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link text-link" href="#">Reviews</a>
-          </li>
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link text-link" href="#">Contact us</a>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.youtube.com/c/GoIT"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <svg class="mobile-menu-social-icon" width="28" height="28">
+                <use href="./img/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-      </nav>
-      <ul class="mobile-menu-social-list">
-        <li class="mobile-menu-social-item">
-          <a class="mobile-menu-social-link" href="#">
-            <svg class="mobile-menu-social-icon" width="28" heigt="28">
-              <use href="./img/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-social-item">
-          <a class="mobile-menu-social-link" href="#">
-            <svg class="mobile-menu-social-icon" width="28" heigt="28">
-              <use href="./img/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-social-item">
-          <a class="mobile-menu-social-link" href="#">
-            <svg class="mobile-menu-social-icon" width="28" heigt="28">
-              <use href="./img/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

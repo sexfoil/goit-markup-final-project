@@ -4,6 +4,8 @@
 @import url('./base/common.css');
 @import url('./base/section.css');
 @import url('./base/container.css');
+@import url('./base/button.css');
+@import url('./base/logo.css');
 
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
@@ -14,3 +16,4 @@
 @import url('./layout/application.css');
 @import url('./layout/reviews.css');
 @import url('./layout/footer.css');
+

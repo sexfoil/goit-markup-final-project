@@ -1,0 +1,10 @@
+.logo {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-weight: var(--font-weight-primary-bold);
+  color: currentColor;
+}
+
+.logo .brand-color {
+  color: var(--color-green);
+}

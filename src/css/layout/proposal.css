@@ -1,0 +1,35 @@
+.proposal-container {
+    border-radius: 30px;
+        background: linear-gradient(80deg, var(--color-green) 0%, var(--color-green-linear) 100%);
+}
+
+.proposal-span {
+    color: var(--color-green-linear);
+}
+
+.proposal-card {
+    background-color: var(--color-white);
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 5px 4px;
+    background-color: var(--color-green);
+    border-radius: 50%;
+}
+
+.check-icon {   
+    stroke: var(--color-white);
+    stroke-width: 1.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .icon-container {
+        width: 28px;
+        height: 28px;
+    }
+}
