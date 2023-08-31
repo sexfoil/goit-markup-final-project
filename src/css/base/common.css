@@ -43,6 +43,7 @@ body {
 
 .text-body {
     color: var(--color-light-black);
+    text-align: center;
     font-size: 18px;
     font-weight: var(--font-weight-primary-regular);
     line-height: 1.67;

@@ -1,0 +1,13 @@
+.proposal-container {
+    border-radius: 30px;
+        background: linear-gradient(80deg, var(--color-green) 0%, var(--color-green-linear) 100%);
+}
+
+.proposal-span {
+    color: var(--color-green-linear);
+}
+
+.proposal-card {
+    background-color: var(--color-white);
+}
+
