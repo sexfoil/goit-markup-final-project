@@ -8,6 +8,7 @@
     --color-gray: #f3f5f6;
     --color-gray-border: rgba(18, 20, 23, 0.20);
     --color-white: #ffffff;
+    --color-white-translucent: rgba(255, 255, 255, 0.5);
 
     --font-primary: "Manrope", sans-serif;
     --font-weight-primary-regular: 400;
