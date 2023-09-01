@@ -1,6 +1,7 @@
 .proposal-container {
+    z-index: -100;
     border-radius: 30px;
-        background: linear-gradient(80deg, var(--color-green) 0%, var(--color-green-linear) 100%);
+    background: linear-gradient(80deg, var(--color-green) 0%, var(--color-green-linear) 100%);
 }
 
 .proposal-span {
@@ -9,6 +10,42 @@
 
 .proposal-card {
     background-color: var(--color-white);
+}
+
+.proposal-title {
+    padding: 40px 20px;
+}
+
+.benefit-container {
+    position: relative;    
+}
+
+.benefit-cards {
+
+}
+
+.bg-card {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    border-radius: 30px;
+}
+
+.bg-one {
+    transform: rotate(-9.864deg);
+    background-color: var(--color-light-green);
+    /* z-index: 1; */
+}
+
+.bg-main {
+    position: absolute;
+    background-color: var(--color-white);
+    border-radius: 30px;
+    z-index: 100;
 }
 
 .icon-container {
@@ -27,9 +64,18 @@
     stroke-width: 1.5px;
 }
 
+
 @media screen and (min-width: 768px) {
     .icon-container {
         width: 28px;
         height: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .benefit-text {
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: -0.28px;
     }
 }
