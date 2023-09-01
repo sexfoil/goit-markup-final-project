@@ -210,11 +210,7 @@
 
     .application-title {
         font-weight: 600;
-    }
-
-    .application-text-highlight::after {
-        background-color: inherit;
-    }
+    }    
 }
 
 @media screen and (max-width: 1279px) {
