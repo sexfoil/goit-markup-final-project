@@ -15,6 +15,48 @@
     margin: 0 auto
 }
 
+.application-card-container {
+    display: flex;
+    width: 492px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    background: #4DC274;
+    margin-right: 32px;
+}
+
+.application-image {
+    border-radius: 30px;
+}
+
+.application-card-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.application-card-information-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-bottom: 8px;
+}
+
+.application-card-information-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 .application-form {
     display: flex;
     flex-direction: column;
@@ -127,6 +169,10 @@
     margin: 0 auto
 }
 
+.application-form-radiobutton-link {
+    text-decoration: underline;
+}
+
 .custom-radio-button {
     display: inline-flex;
     justify-content: center;
@@ -167,9 +213,88 @@
     }    
 }
 
+@media screen and (max-width: 1279px) {
+    .application-card-container {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
+    .application-header-container {
+        margin-bottom: 64px;
+    }
+
+    .application-title {
+        margin-bottom: 16px;
+    }
+
+    .application-text {
+        max-width: 586px;
+    }
+
+    .application-form {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .application-form-wrapper {
+        margin-bottom: 32px;
+    }
+
+    .application-form-imput {
+        width: 500px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .application-form-comment {
+        width: 500px;
+        height: 104px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .application-form-radiobutton-container {
+        margin-bottom: 32px;
+    }
+
+    .application-form-radiobutton-wrapper {
+        display: flex;
+        gap: 16px;
+
+    }
+
+    .application-form-radiobutton-text {
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: -0.4px;
+        margin-bottom: 16px;
+    }
+
     .custom-radio-button {
         width: 20px;
         height: 20px;
     }
+
+    .application-form-btn {
+        max-width: 500px;
+        padding: 16px;
+        font-size: 18px;
+        line-height: 1.56;
+        margin-bottom: 16px;
+    }
+
+    .application-form-smalltext {
+        font-size: 14px;
+        line-height: 1.71;
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+   .application-box {
+    display: flex;
+   }
 }
