@@ -15,7 +15,6 @@
 
 .proposal-container {
   position: relative;
-  position: relative;
   margin-top: 65px;
   padding: 40px 20px;
   background-color: var(--color-white);
@@ -45,7 +44,6 @@
     background-image: url('../../img/proposal/card-deco-s@2x.png');
   }
 }
-/* ============= ADAPTIVE >375px =============*/
 
 .proposal-title {
   font-size: 20px;
@@ -100,4 +98,77 @@
 
 .proposal-btn {
   margin-top: 20px;
+}
+
+/* ============= ADAPTIVE >768px =============*/
+
+@media screen and (min-width: 768px) {
+  .proposal-section {
+    padding: 64px 18px 92px;
+  }
+
+  .proposal-container {
+    margin-top: 84px;
+    padding: 64px 32px;
+    border-radius: 30px;
+  }
+
+  .proposal-decorative-image {
+    top: -52px;
+    left: -38px;
+    width: 754px;
+    height: 614px;
+    /* width: calc(100% + 76px);
+    height: calc(100% + 104px); */
+    background-image: url('../../img/proposal/card-deco-m.png');
+  }
+
+  .proposal-books-image {
+    position: absolute;
+    top: 163px;
+    left: 500px;
+    width: 214px;
+    height: 263px;
+    flex-shrink: 0;
+    z-index: 200;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../img/proposal/books-m.png');
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .proposal-decorative-image {
+      background-image: url('../../img/proposal/card-deco-m@2x.png');
+    }
+
+    .proposal-books-image {
+      background-image: url('../../img/proposal/books-m@2x.png');
+    }
+  }
+
+  .proposal-title {
+    font-size: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .proposal-list {
+    margin-top: 32px;
+  }
+
+  .proposal-list-item {
+    gap: 16px;
+  }
+
+  .benefit-text {
+    width: 405px;
+  }
+
+  .proposal-btn {
+    margin-top: 32px;
+    width: 306px;
+  }
 }
