@@ -1,6 +1,6 @@
 .hero-section {
-  padding: 0 20px;
   margin: 0 auto;
+  padding: 8px 0 40px;
 }
 
 .hero-img {
@@ -110,7 +110,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding: 0 32px;
+    padding: 32px 0 50px;
   }
 
   .hero-img {
@@ -147,6 +147,7 @@
     font-size: 60px;
     max-width: 488px;
     margin-bottom: 32px;
+    line-height: 1.16;
   }
 
   .hero-arrow-btn {
@@ -165,6 +166,11 @@
 /* ============= ADAPTIVE >1280px =============*/
 
 @media screen and (min-width: 1280px) {
+
+  .hero-section {
+    padding: 16px 0 48px;
+  }
+
   .hero-img {
     padding: 164px 0 163px 64px;
     background-image: linear-gradient(
