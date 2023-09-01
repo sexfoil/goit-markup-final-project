@@ -153,6 +153,7 @@
     background: #4DC274;
     border: none;
     margin-bottom: 16px;
+    transition: background-color 0.3s;
 }
 
 .application-form-btn:hover,
@@ -210,7 +211,7 @@
 
     .application-title {
         font-weight: 600;
-    }    
+    }
 }
 
 @media screen and (max-width: 1279px) {
