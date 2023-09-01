@@ -1,0 +1,25 @@
+.teachers-title {
+  margin-bottom: 16px;
+}
+.teachers-descriptions {
+  margin-bottom: 40px;
+}
+.teachers-list {
+  display: flex;
+  flex-direction: column;
+}
+.teachers-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teachers-list-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.teachers-list-img {
+  margin-bottom: 16px;
+}
+.teachers-list-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
