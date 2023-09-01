@@ -172,3 +172,58 @@
     width: 306px;
   }
 }
+
+/* ============= ADAPTIVE >1280px =============*/
+
+@media screen and (min-width: 1280px) {
+  .proposal-section {
+    padding: 64px 64px 142px;
+  }
+
+  .proposal-container {
+    margin-top: 134px;
+    padding: 64px 64px;
+    border-radius: 30px;
+  }
+
+  .proposal-decorative-image {
+    top: -62px;
+    left: -50px;
+    width: 1104px;
+    height: 604px;
+    /* width: calc(100% + 100px);
+    height: calc(100% + 124px); */
+    background-image: url('../../img/proposal/card-deco-l.png');
+  }
+
+  .proposal-books-image {
+    top: 128px;
+    left: 773px;
+    width: 214px;
+    height: 263px;
+    background-image: url('../../img/proposal/books-l.png');
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .proposal-decorative-image {
+      background-image: url('../../img/proposal/card-deco-l@2x.png');
+    }
+    .proposal-books-image {
+      background-image: url('../../img/proposal/books-l@2x.png');
+    }
+  }
+
+  .proposal-list-item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  .proposal-list-item {
+    gap: 20px;
+  }
+
+  .benefit-text {
+    width: 610px;
+  }
+}
