@@ -29,42 +29,34 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .about-list {
         margin-bottom: 32px;
 
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
-        align-items: center;
-        justify-content: center;
 
         padding: 0;
         column-gap: 32px;
         row-gap: 32px;
-
     }
 }
 
 @media screen and (min-width: 1280px) {
     .about-list {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
-        align-items: center;
-        justify-content: center;
-
-        padding: 0;
         column-gap: 32px;
         row-gap: 32px;
         margin-bottom: 0;
+        width: 682px;
     }
 }
-
 
 .about-list>li {
     display: block;
@@ -88,7 +80,7 @@
 
 .about-subtitle {
     margin-bottom: 40px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -96,7 +88,13 @@
     .about-subtitle {
         font-size: 18px;
         line-height: 1.67;
-        margin-bottom: 40px;
+        padding: 0 23px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-subtitle {
+        padding: 0 183px;
     }
 }
 
@@ -115,15 +113,14 @@
 
 @media screen and (min-width: 768px) {
     .advantages-block {
-        min-height: 160px;
         width: 325px;
+        flex-basis: calc((100% - 32px) / 2);
     }
 }
 
-
 .advantages-text {
     padding-top: 16px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: var(--color-black);
@@ -139,18 +136,23 @@
 .memoji-section {
     background-color: var(--color-green);
     border-radius: 16px;
+    width: 100%;
+    height: 313px;
+    background-image: url('../../img/about/memoji-mobile.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.memoji-pic {
-    padding-top: 51px;
-    padding-bottom: 51px;
-    margin: auto;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .memoji-section {
+        height: 243px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-    .memoji-pic {
-        padding-top: 71px;
-        margin: auto;
-        min-width: 310px;
+    .memoji-section {
+        height: 352px;
+        width: 310px;
     }
 }
