@@ -1,81 +1,229 @@
-.proposal-container {
-    z-index: -100;
-    border-radius: 30px;
-    background: linear-gradient(80deg, var(--color-green) 0%, var(--color-green-linear) 100%);
+.proposal-section {
+  display: block;
+  border-radius: 30px;
+  background: linear-gradient(
+    80deg,
+    var(--color-green) 0%,
+    var(--color-green-linear) 100%
+  );
+  padding: 40px 20px 64px;
 }
 
 .proposal-span {
-    color: var(--color-green-linear);
+  color: var(--color-green-linear);
 }
 
-.proposal-card {
-    background-color: var(--color-white);
+.proposal-container {
+  position: relative;
+  margin-top: 65px;
+  padding: 40px 20px;
+  background-color: var(--color-white);
+  border-radius: 16px;
+  flex-shrink: 0;
+  z-index: 100;
+}
+
+.proposal-decorative-image {
+  position: absolute;
+  top: -25px;
+  left: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 50px);
+  flex-shrink: 0;
+  z-index: -100;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../../img/proposal/card-deco-s.png');
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .proposal-decorative-image {
+    background-image: url('../../img/proposal/card-deco-s@2x.png');
+  }
 }
 
 .proposal-title {
-    padding: 40px 20px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
 }
 
-.benefit-container {
-    position: relative;    
+.proposal-list {
+  margin-top: 20px;
 }
 
-.benefit-cards {
-
+.proposal-list-item:not(:last-child) {
+  margin-bottom: 16px;
 }
 
-.bg-card {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    /* transform: translate(-50%, -50%); */
-    border-radius: 30px;
-}
-
-.bg-one {
-    transform: rotate(-9.864deg);
-    background-color: var(--color-light-green);
-    /* z-index: 1; */
-}
-
-.bg-main {
-    position: absolute;
-    background-color: var(--color-white);
-    border-radius: 30px;
-    z-index: 100;
+.proposal-list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    padding: 5px 4px;
-    background-color: var(--color-green);
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px 4px;
+  background-color: var(--color-green);
+  border-radius: 50%;
 }
 
-.check-icon {   
-    stroke: var(--color-white);
-    stroke-width: 1.5px;
+.check-icon {
+  stroke: var(--color-white);
+  stroke-width: 1.5px;
 }
-
 
 @media screen and (min-width: 768px) {
-    .icon-container {
-        width: 28px;
-        height: 28px;
-    }
+  .icon-container {
+    width: 28px;
+    height: 28px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .benefit-text {
-        font-size: 14px;
-        line-height: 1.43;
-        letter-spacing: -0.28px;
+  .benefit-text {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.28px;
+  }
+}
+
+.proposal-btn {
+  margin-top: 20px;
+}
+
+/* ============= ADAPTIVE >768px =============*/
+
+@media screen and (min-width: 768px) {
+  .proposal-section {
+    padding: 64px 18px 92px;
+  }
+
+  .proposal-container {
+    margin-top: 84px;
+    padding: 64px 32px;
+    border-radius: 30px;
+  }
+
+  .proposal-decorative-image {
+    top: -52px;
+    left: -38px;
+    width: 754px;
+    height: 614px;
+    /* width: calc(100% + 76px);
+    height: calc(100% + 104px); */
+    background-image: url('../../img/proposal/card-deco-m.png');
+  }
+
+  .proposal-books-image {
+    position: absolute;
+    top: 163px;
+    left: 500px;
+    width: 214px;
+    height: 263px;
+    flex-shrink: 0;
+    z-index: 200;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../img/proposal/books-m.png');
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .proposal-decorative-image {
+      background-image: url('../../img/proposal/card-deco-m@2x.png');
     }
+
+    .proposal-books-image {
+      background-image: url('../../img/proposal/books-m@2x.png');
+    }
+  }
+
+  .proposal-title {
+    font-size: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .proposal-list {
+    margin-top: 32px;
+  }
+
+  .proposal-list-item {
+    gap: 16px;
+  }
+
+  .benefit-text {
+    width: 405px;
+  }
+
+  .proposal-btn {
+    margin-top: 32px;
+    width: 306px;
+  }
+}
+
+/* ============= ADAPTIVE >1280px =============*/
+
+@media screen and (min-width: 1280px) {
+  .proposal-section {
+    padding: 64px 64px 142px;
+  }
+
+  .proposal-container {
+    margin-top: 134px;
+    padding: 64px 64px;
+    border-radius: 30px;
+  }
+
+  .proposal-decorative-image {
+    top: -62px;
+    left: -50px;
+    width: 1104px;
+    height: 604px;
+    /* width: calc(100% + 100px);
+    height: calc(100% + 124px); */
+    background-image: url('../../img/proposal/card-deco-l.png');
+  }
+
+  .proposal-books-image {
+    top: 128px;
+    left: 773px;
+    width: 214px;
+    height: 263px;
+    background-image: url('../../img/proposal/books-l.png');
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .proposal-decorative-image {
+      background-image: url('../../img/proposal/card-deco-l@2x.png');
+    }
+    .proposal-books-image {
+      background-image: url('../../img/proposal/books-l@2x.png');
+    }
+  }
+
+  .proposal-list-item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  .proposal-list-item {
+    gap: 20px;
+  }
+
+  .benefit-text {
+    width: 610px;
+  }
 }
