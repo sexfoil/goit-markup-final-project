@@ -140,25 +140,9 @@
 }
 
 .application-form-btn {
-    display: block;
     max-width: 335px;
-    padding: 14px;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.71;
     justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    background: #4DC274;
-    border: none;
     margin-bottom: 16px;
-    transition: background-color 0.3s;
-}
-
-.application-form-btn:hover,
-.application-form-btn:focus {
-    background-color: var(--color-dark-green);
 }
 
 .application-form-smalltext {
@@ -281,9 +265,6 @@
 
     .application-form-btn {
         max-width: 500px;
-        padding: 16px;
-        font-size: 18px;
-        line-height: 1.56;
         margin-bottom: 16px;
     }
 
