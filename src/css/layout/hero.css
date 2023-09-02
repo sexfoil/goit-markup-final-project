@@ -36,25 +36,25 @@
 }
 
 .hero-btn {
-  display: block;
+  /* display: block; */
   width: 100%;
-  padding: 14px 0;
-  border-radius: 12px;
-  text-align: center;
-  font-family: var(--font-primary);
-  font-size: 14px;
-  font-weight: var(--font-weight-primary-bold);
-  line-height: 1.71;
-  border: none;
-  background-color: var(--color-green);
-  color: var(--color-white);
-  transition: background-color 0.3s;
+  /* padding: 14px 0; */
+  /* border-radius: 12px; */
+  /* text-align: center; */
+  /* font-family: var(--font-primary); */
+  /* font-size: 14px; */
+  /* font-weight: var(--font-weight-primary-bold); */
+  /* line-height: 1.71; */
+  /* border: none; */
+  /* background-color: var(--color-green); */
+  /* color: var(--color-white); */
+  /* transition: background-color 0.3s; */
 }
 
-.hero-btn:hover,
+/* .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--color-dark-green);
-}
+} */
 
 .hero-arrow-btn {
   width: 40px;
@@ -140,7 +140,7 @@
 
   .hero-btn {
     max-width: 306px;
-    font-size: 18px;
+    /* font-size: 18px; */
     padding: 16px 64px;
   }
 
