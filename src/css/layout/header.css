@@ -78,17 +78,17 @@
 
   .page-header-nav-link::after {
     content: '';
-    display: none;
     position: absolute;
     left: 0;
     bottom: -4px;
-    width: 37px;
+    width: 0px;
     height: 2px;
     background-color: var(--color-green);
+    transition: width 0.3s;
   }
 
   .page-header-nav-link:hover:after {
-    display: block;
+     width: 37px;
   }
 
   .page-header-social-list {
@@ -104,6 +104,7 @@
     height: 42px;
     border-radius: 10px;
     border: 1px solid rgba(18, 20, 23, 0.10);
+    transition: .3s, border-color .3s;
   }
 
   .page-header-social-link:hover {
