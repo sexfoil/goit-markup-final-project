@@ -22,18 +22,6 @@
     background-color: var(--color-dark-green);
 }
 
-.btn-transparent {
-    border: 1px solid rgba(255, 255, 255, 0.40);
-    background-color: transparent;
-    color: var(--color-white);
-}
-
-.btn-transparent:hover,
-.btn-transparent:focus {
-    color: var(--color-dark-green);
-    background-color: var(--color-white);
-}
-
 .text-button {
     color: var(--color-white);
     font-family: var(--font-primary);
