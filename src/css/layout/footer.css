@@ -1,3 +1,19 @@
+/* ========== Bottom footer ========== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+/* ========== Bottom footer ========== */
+
 .page-footer {
   padding: 40px 0 20px;
   color: var(--color-white);
@@ -24,14 +40,13 @@
   opacity: 0.9;
 }
 
-.footer-contacts-phone,
-.footer-contacts-address {
+.footer-contacts-link {
   font-size: 14px;
   font-weight: var(--font-weight-primary-semi-bold);
   line-height: 1.29;
 }
 
-.footer-contacts-phone:hover {
+.footer-contacts-link:hover {
   text-decoration: underline;
 }
 
