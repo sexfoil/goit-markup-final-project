@@ -72,6 +72,14 @@
   background: var(--color-green);
   margin-left: auto;
   margin-right: auto;
+  transition: border 0.3s, color 0.3s, background-color 0.3s;
+}
+
+.lessons-item-link:hover,
+.lessons-item-link:focus {
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-dark-green);
 }
 
 .lessons-item:nth-child(2n) {
@@ -86,8 +94,15 @@
 }
 
 .lessons-item:nth-child(2n) .lessons-item-link {
-  border-radius: 12px;
+  /* border-radius: 12px; */
   outline: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.lessons-item:nth-child(2n) .lessons-item-link:hover,
+.lessons-item:nth-child(2n) .lessons-item-link:focus {
+  border: none;
+  color: var(--color-green);
+  background-color: var(--color-white);
 }
 
 /* -------------------------------- TABLET ------------------------------------------ */
