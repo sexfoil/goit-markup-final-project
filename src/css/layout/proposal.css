@@ -7,6 +7,8 @@
     var(--color-green-linear) 100%
   );
   padding: 40px 20px 64px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .proposal-span {
@@ -105,6 +107,8 @@
 @media screen and (min-width: 768px) {
   .proposal-section {
     padding: 64px 18px 92px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .proposal-container {
@@ -176,6 +180,12 @@
 @media screen and (min-width: 1280px) {
   .proposal-section {
     padding: 64px 64px 142px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  .proposal-section>p {
+    max-width: 776px;
   }
 
   .proposal-container {
@@ -189,8 +199,6 @@
     left: -50px;
     width: 1104px;
     height: 604px;
-    /* width: calc(100% + 100px);
-    height: calc(100% + 124px); */
     background-image: url('../../img/proposal/card-deco-l.png');
   }
 
