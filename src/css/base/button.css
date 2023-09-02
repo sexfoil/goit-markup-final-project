@@ -8,6 +8,7 @@
     font-size: 18px;
     font-weight: var(--font-weight-primary-bold);
     line-height: 1.56;
+    transition: background-color 0.3s;
 }
 
 .btn-green {

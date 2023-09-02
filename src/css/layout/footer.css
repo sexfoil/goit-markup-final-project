@@ -67,17 +67,17 @@ footer {
 
 .footer-menu-nav-link::after {
   content: '';
-  display: none;
   position: absolute;
   left: 0;
   bottom: -4px;
-  width: 37px;
+  width: 0px;
   height: 2px;
   background-color: var(--color-green);
+  transition: width 0.3s;
 }
 
 .footer-menu-nav-link:hover:after {
-  display: block;
+  width: 37px;
 }
 
 .footer-social-list {
@@ -98,6 +98,7 @@ footer {
 .footer-social-icon {
   fill: var(--color-white);
   opacity: 0.8;
+  transition: fill 0.3s, border-color 0.3s;
 }
 
 .footer-social-link:hover {
