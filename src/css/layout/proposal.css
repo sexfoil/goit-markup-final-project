@@ -117,9 +117,7 @@
     top: -52px;
     left: -38px;
     width: 754px;
-    height: 614px;
-    /* width: calc(100% + 76px);
-    height: calc(100% + 104px); */
+    height: 614px;    
     background-image: url('../../img/proposal/card-deco-m.png');
   }
 
