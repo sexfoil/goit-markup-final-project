@@ -62,11 +62,14 @@
 .lessons-item-link {
   width: 100%;
   max-width: 295px;
-  color: #fff;
+  color: var(--color-white);
+  font-family: Manrope;
   font-size: 14px;
   font-weight: var(--font-weight-primary-bold);
   line-height: 1.71;
-  padding: 14px 78px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
   align-items: center;
   border-radius: 12px;
   background: var(--color-green);
@@ -156,16 +159,12 @@
   }
 
   .lessons-item-link {
-    width: 100%;
     max-width: 304px;
-    color: #fff;
-    font-size: 14px;
-    font-family: Manrope;
     font-size: 18px;
     font-weight: var(--font-weight-primary-bold);
     line-height: 1.56;
-    padding: 16px 63px;
-    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 
@@ -203,6 +202,5 @@
 
   .lessons-item-link {
     max-width: 256px;
-    padding: 16px 39px;
   }
 }
