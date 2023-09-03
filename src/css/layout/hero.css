@@ -15,7 +15,7 @@
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url('../../img/hero/hero-s.jpg');
+    url('../../img/hero/hero-s.avif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -78,7 +78,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url('../../img/hero/hero-s@2x.jpg');
+      url('../../img/hero/hero-s@2x.avif');
   }
 }
 /* ============= ADAPTIVE >375px =============*/
@@ -103,7 +103,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url('../../img/hero/hero-m.jpg');
+      url('../../img/hero/hero-m.avif');
       max-width: 704px;
       border-radius: 30px;
   }
@@ -117,7 +117,7 @@
           rgba(0, 0, 0, 0.4) 0%,
           rgba(0, 0, 0, 0) 100%
         ),
-        url('../../img/hero/hero-m@2x.jpg');
+        url('../../img/hero/hero-m@2x.avif');
     }
   }
 
@@ -161,7 +161,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url('../../img/hero/hero-l.jpg');
+      url('../../img/hero/hero-l.avif');
     max-width: 1152px;
   }
 
@@ -174,7 +174,7 @@
           rgba(0, 0, 0, 0.4) 0%,
           rgba(0, 0, 0, 0) 100%
         ),
-        url('../../img/hero/hero-l@2x.jpg');
+        url('../../img/hero/hero-l@2x.avif');
     }
   }
 

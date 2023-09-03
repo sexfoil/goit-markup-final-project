@@ -36,14 +36,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url('../../img/proposal/card-deco-s.png');
+  background-image: url('../../img/proposal/card-deco-s.avif');
 }
 
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .proposal-decorative-image {
-    background-image: url('../../img/proposal/card-deco-s@2x.png');
+    background-image: url('../../img/proposal/card-deco-s@2x.avif');
   }
 }
 
@@ -122,7 +122,7 @@
     left: -38px;
     width: 754px;
     height: 614px;    
-    background-image: url('../../img/proposal/card-deco-m.png');
+    background-image: url('../../img/proposal/card-deco-m.avif');
   }
 
   .proposal-books-image {
@@ -137,18 +137,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('../../img/proposal/books-m.png');
+    background-image: url('../../img/proposal/books-m.avif');
   }
 
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .proposal-decorative-image {
-      background-image: url('../../img/proposal/card-deco-m@2x.png');
+      background-image: url('../../img/proposal/card-deco-m@2x.avif');
     }
 
     .proposal-books-image {
-      background-image: url('../../img/proposal/books-m@2x.png');
+      background-image: url('../../img/proposal/books-m@2x.avif');
     }
   }
 
@@ -199,7 +199,7 @@
     left: -50px;
     width: 1104px;
     height: 604px;
-    background-image: url('../../img/proposal/card-deco-l.png');
+    background-image: url('../../img/proposal/card-deco-l.avif');
   }
 
   .proposal-books-image {
@@ -207,17 +207,17 @@
     left: 773px;
     width: 214px;
     height: 263px;
-    background-image: url('../../img/proposal/books-l.png');
+    background-image: url('../../img/proposal/books-l.avif');
   }
 
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .proposal-decorative-image {
-      background-image: url('../../img/proposal/card-deco-l@2x.png');
+      background-image: url('../../img/proposal/card-deco-l@2x.avif');
     }
     .proposal-books-image {
-      background-image: url('../../img/proposal/books-l@2x.png');
+      background-image: url('../../img/proposal/books-l@2x.avif');
     }
   }
 
