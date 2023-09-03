@@ -13,6 +13,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
       rel="stylesheet"
+      media="all"
     />
 
     <link
@@ -21,10 +22,13 @@
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+      media="all"
     />
 
     
-    <script src="/goit-markup-final-project/jquery-latest.js"></script>
+
+    <script src="/goit-markup-final-project/scroll.js" async defer></script>
+    <script src="/goit-markup-final-project/jquery-latest.js" defer></script>
     <script type="module" crossorigin src="/goit-markup-final-project/assets/index-9909993e.js"></script>
     <link rel="stylesheet" href="/goit-markup-final-project/assets/index-c3470df7.css">
   </head>
@@ -36,7 +40,12 @@
         english<span class="brand-color">excellence</span>.
       </div>
     </div>
-    <button class="page-header-menu-button js-open-menu" type="button">
+    <button
+      class="page-header-menu-button js-open-menu"
+      type="button"
+      id="mobile-menu-btn"
+      aria-label="Burger Menu"
+    >
       <svg
         class="page-header-menu-button-icon page-header-menu-button-icon-mobile"
         width="32"
@@ -748,6 +757,7 @@
     <button
       class="mobile-menu-close-button js-close-menu"
       type="button"
+      id="close-btn"
       aria-label="Close"
     >
       <svg
@@ -842,6 +852,5 @@
 ></script>
 
 
-    <script src="/goit-markup-final-project/scroll.js"></script>
   </body>
 </html>
