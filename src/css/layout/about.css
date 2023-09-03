@@ -159,7 +159,7 @@
 .memoji-image {
     height: 172px;
     width: 255px;
-    background-image: url('../../img/about/memoji.png');
+    background-image: url('../../img/about/memoji.avif');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -170,7 +170,7 @@ screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
     .memoji-image {
         background-image:
-            url('../../img/about/memoji@2x.png');
+            url('../../img/about/memoji@2x.avif');
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center;
